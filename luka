@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>My Website</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/"
+        crossorigin="anonymous">
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="footer.css">
+</head>
+
+<body>
+    <!--Zaglavlje-->
+    <div class="jumbotron text-center" style="margin-bottom:0%">
+        <h1>Hi I'am<br>Andrija Arsenić</h1>
+        <p>
+            <bold>It's not coincidente that a great programer<br>does not write<br>
+                "Java Developer" or "_____ Developer"<br>in his or her resume.<br>
+                Always be open and prepared to learn and play with new technologies!<br>
+                -Jose Campana</bold>
+        </p>
+    </div>
+
+    <!--Nav BAR-->
+
+    <nav class="navbar navbar-inverse">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+            </div>
+            <a class="navbar-brand" href="#"><i class="fas fa-home"></i> Home</a>
+            <div class="collapse navbar-collapse" id="myNavbar">
+                <ul class="nav navbar-nav">
+
+                    <li><a href="Biography.html">Biography</a></li>
+                    <li><a href="#">Projects</a></li>
+                    <li><a href="#">Galery</a></li>
+                    <li><a data-target="#modal" data-toggle="modal" href="#">Contact me!</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!--POCETAK MODALA-->
+
+    <div class="modal fade" id="modal" tabindex="-1" role="dialog" aria-labelledby="modaltext" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h3 id="modaltext">Contact me! / Follow me!</h3>
+                </div>
+                <div class="modal-body">
+
+                    <ul class="footer_ul2_amrc">
+                        <li><a><i class="fab fa-instagram fleft padding-right"></i> </a>
+                            <p>Instagram <a href="https://www.instagram.com/arsa.js/"><br>arsa.js</a></p>
+                        </li>
+                        <li><a><i class="fab fa-facebook-f fleft padding-right"></i> </a>
+                            <p>Facebook <a href="https://www.facebook.com/andrija.arsenic"><br>Andrija Arsenic</a></p>
+                        </li>
+                        <li><a><i class="fab fa-linkedin fleft padding-right"></i> </a>
+                            <p>LinkedIn <a href="https://www.linkedin.com/in/andrija-arsenić-691737163/"><br>Andrija
+                                    Arsenic</a></p>
+                        </li>
+                        <li><a><i class="fab fa-github fleft padding-right"></i> </a>
+                            <p>GitHub <a href="https://github.com/ArsaBB"><br>ArsaBB</a></p>
+                        </li>
+                    </ul>
+                    <button id="closeModal" type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--KRAJ MODALA -->
+
+    <!--Sredina strane-->
+
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-4">
+                <h2>About Me</h2>
+                <h5>Photo of me:</h5>
+                <div class="fakeimg">Fake Image</div>
+                <p>Some text about me in culpa qui officia deserunt mollit anim..</p>
+                <h3>Some Links</h3>
+                <p>Lorem ipsum dolor sit ame.</p>
+                <ul class="nav nav-pills nav-stacked">
+                    <li class="active"><a href="#">Link 1</a></li>
+                    <li><a href="#">Link 2</a></li>
+                    <li><a href="#">Link 3</a></li>
+                </ul>
+                <hr class="hidden-sm hidden-md hidden-lg">
+            </div>
+            <div class="col-sm-8">
+                <h2>TITLE HEADING</h2>
+                <h5>Title description, Dec 7, 2017</h5>
+                <div class="fakeimg">Fake Image</div>
+                <p>Some text..</p>
+                <p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do
+                    eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                    exercitation ullamco.</p>
+                <br>
+                <h2>TITLE HEADING</h2>
+                <h5>Title description, Sep 2, 2017</h5>
+                <div class="fakeimg">Fake Image</div>
+                <p>Some text..</p>
+                <p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do
+                    eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                    exercitation ullamco.</p>
+            </div>
+        </div>
+    </div>
+
+    <!--FOOTER-->
+    <footer class="footer">
+        <div class="container bottom_border">
+
+            <div class="row">
+                <div class=" col-sm-6 col-md col-md-6">
+                    <h5 class="headin5_amrc col_white_amrc pt2">Find us</h5>
+
+
+                    <p><i class="fa fa-location-arrow"></i> Jajinci, Belgrade, Serbia </p>
+                    <p><i class="fa fa-phone"></i> +381 60/6463-506<br>Viber, WhatsApp, Telegram </p>
+                    <p><i class="fa fa fa-envelope"></i> andrijait8@gmail.com </p>
+                </div>
+
+
+                <div class=" col-sm-6 col-md  col-6 col">
+                    <h5 class="headin5_amrc col_white_amrc pt2">Follow me</h5>
+
+
+                    <ul class="footer_ul2_amrc">
+                        <li><a><i class="fab fa-instagram fleft padding-right"></i> </a>
+                            <p>Instagram <a href="https://www.instagram.com/arsa.js/"><br>arsa.js</a></p>
+                        </li>
+                        <li><a><i class="fab fa-facebook-f fleft padding-right"></i> </a>
+                            <p>Facebook <a href="https://www.facebook.com/andrija.arsenic"><br>Andrija Arsenic</a></p>
+                        </li>
+                        <li><a><i class="fab fa-linkedin fleft padding-right"></i> </a>
+                            <p>LinkedIn <a href="https://www.linkedin.com/in/andrija-arsenić-691737163/"><br>Andrija
+                                    Arsenic</a></p>
+                        </li>
+                        <li><a><i class="fab fa-github fleft padding-right"></i> </a>
+                            <p>GitHub <a href="https://github.com/ArsaBB"><br>ArsaBB</a></p>
+                        </li>
+                    </ul>
+
+                </div>
+            </div>
+        </div>
+
+
+        <div class="container">
+            <ul class="foote_bottom_ul_amrc">
+                <li><a href="Arsa.html">Home</a></li>
+                <li><a href="http://kalarikendramdelhi.com">About</a></li>
+                <li><a href="http://kalarikendramdelhi.com">Services</a></li>
+                <li><a href="http://kalarikendramdelhi.com">Pricing</a></li>
+                <li><a href="http://kalarikendramdelhi.com">Blog</a></li>
+                <li><a href="http://kalarikendramdelhi.com">Contact</a></li>
+            </ul>
+            <!--foote_bottom_ul_amrc ends here-->
+            <p class="text-center">Copyright @2019 | Designed With by <a href="#">Me, I and Myself</a></p>
+
+            <ul class="social_footer_ul">
+                <li><a href=""><i class="fab fa-facebook-f"></i></a></li>
+                <li><a href=""><i class="fab fa-twitter"></i></a></li>
+                <li><a href=""><i class="fab fa-linkedin"></i></a></li>
+                <li><a href=""><i class="fab fa-instagram"></i></a></li>
+            </ul>
+        </div>
+    </footer>
+</body>
+
+</html>

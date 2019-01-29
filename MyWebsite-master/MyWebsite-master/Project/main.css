@@ -1,0 +1,41 @@
+.jumbotron{
+    height: 500px;
+    background-image: url(academy.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.fakeimg {
+    height: 200px;
+    background: #aaa;
+  }
+  .modal-dialog{
+    align-content: center;
+  }
+
+  .modal-header{
+    background-color:   #101010;
+    text-align: center;   
+  }
+  #modaltext{
+      color: rgb(247, 245, 245);
+  }
+  #closeModal{
+      width: 4cm;
+      background-color: #101010;
+      -webkit-text-fill-color: #aaa;
+      font-size: 15px;
+      font-style: italic;
+  }
+.modal-body{
+    background: #d9d9d9 ;   
+}
+ .modal-body .fab {
+ padding: 30px;
+}
+.nav  a.active{
+    background-color: red;
+    color: blue;
+}
+.headin5_amrc{
+ text-align: right;  
+}
